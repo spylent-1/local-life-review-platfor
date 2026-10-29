@@ -1,0 +1,9 @@
+{
+  "module": {
+    "name": "entry", "type": "entry", "description": "$string:module_desc", "mainElement": "EntryAbility",
+    "deviceTypes": ["phone", "tablet"], "deliveryWithInstall": true, "installationFree": false,
+    "pages": "$profile:main_pages",
+    "requestPermissions": [{ "name": "ohos.permission.INTERNET" }],
+    "abilities": [{ "name": "EntryAbility", "srcEntry": "./ets/entryability/EntryAbility.ets", "description": "$string:module_desc", "icon": "$media:app_icon", "label": "$string:app_name", "exported": true, "skills": [{ "entities": ["entity.system.home"], "actions": ["action.system.home"] }] }]
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "modelVersion": "5.0.0",
+  "name": "flashpass-harmony",
+  "version": "1.0.0",
+  "description": "FlashPass course client",
+  "dependencies": {},
+  "devDependencies": { "@ohos/hvigor": "5.0.0", "@ohos/hvigor-ohos-plugin": "5.0.0" }
+}
