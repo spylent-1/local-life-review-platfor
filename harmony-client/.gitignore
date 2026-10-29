@@ -1,0 +1,7 @@
+.hvigor/
+.idea/
+oh_modules/
+build/
+local.properties
+__pycache__/
+*.pyc
